@@ -25,7 +25,6 @@ body {
   z-index: 999;
 }
 
-
 /* HEADER */
 .header {
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
@@ -532,4 +531,3 @@ footer {
   text-align: center;
   padding: 15px;
 }
-
