@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-	<meta name="description" content=" BHUTNI YOUTH COMPUTER TRAINING CENTRE in Malda provides professional computer education including Basic Computer, Diploma, Advance Diploma, Web Design, C and C++ Programming. Practical training for students in Bhutni, Manikchak, Malda.">
+	<meta name="description" content="BHUTNI YOUTH COMPUTER TRAINING CENTRE in Malda provides professional computer education including Basic Computer, Diploma, Advance Diploma, Web Design, C and C++ Programming. Practical training for students in Bhutni, Manikchak, Malda.">
 	<meta name="keywords" content="Computer Training Centre in Bhutni, Computer Course in Malda, Basic Computer Course, Diploma Computer Course, Web Design Training, C Programming Course, C++ Course, Manikchak Computer Institute">
 	<meta name="author" content="BHUTNI YOUTH COMPUTER TRAINING CENTRE">
 
@@ -14,24 +14,30 @@
 <body>
 
 <!-- WHATSAPP BUTTON -->
-<a href="https://wa.me/917001086042" class="whatsapp-btn" target="_blank">
-  💬 WhatsApp
+<a href="https://wa.me/917001086042" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
 </a>
+
 
 
 <!-- HEADER WITH LOGO -->
 <header class="header">
-  <div class="header-content">
-    <span class="bgremove"><img src="images/logo.png" alt="BHUTNI YOUTH COMPUTER TRAINING CENTRE Logo" class="logo"></span>
+  <div class="header-inner">
 
-    <div>
+    <div class="logo-box">
+      <img src="images/logo.png" alt="BHUTNI YOUTH COMPUTER TRAINING CENTRE Logo">
+    </div>
+
+    <div class="header-text">
       <h1>BHUTNI YOUTH COMPUTER TRAINING CENTRE</h1>
-	  <h3>AFFILIATED BY - NATIONAL YOUTH COMPUTER SAKSHARATA MISSIONS</h3>
+      <h3>AFFILIATED BY - NATIONAL YOUTH COMPUTER SAKSHARATA MISSIONS</h3>
       <p>Practical Computer Education for a Better Future</p>
       <a href="#contact" class="btn">Enroll Now</a>
     </div>
+
   </div>
 </header>
+
 
 
 <!-- IMAGE SLIDER WITH DOTS -->
@@ -128,7 +134,7 @@
     </tr>
   </table>
 
-  <p class="note"><b>*Fees are affordable and may vary. Contact us for details.<b></p>
+  <p class="note"><b>*Fees are affordable and may vary. Contact us for details.</b></p>
 </section>
 
 
@@ -218,7 +224,7 @@
 
     <!-- DIRECTOR -->
     <div class="team-card">
-      <img src="images/director.jpeg" alt=" Director - Bhutni Youth Computer Training Centre">
+      <img src="images/director.jpeg" alt="Director - Bhutni Youth Computer Training Centre">
       <h3>Mostafijur Rahaman</h3>
       <h4>Branch Director</h4>
       <p>
@@ -262,7 +268,7 @@
 
     <div class="testimonial">
       <p>
-        "Best computer training centre in the Bhutni area.
+        "Best computer training centre in Bhutni area.
         Friendly environment and good guidance."
       </p>
       <h4>- Majid Rahaman</h4>
@@ -278,20 +284,85 @@
   </div>
 </section>
 
+<!-- LOCATION MAP -->
+<section class="map">
+  <h2>Our Location</h2>
+  <p>BHUTNI THANA MORE, UTTAR CHANDIPUR, MANIKCHAK, MALDA</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.3729686561745!2d87.84650464613163!3d25.163303386334796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa938bed850025%3A0xe60e829523d0c264!2sBhutni%20Youth%20Computer%20Training%20Centre!5e0!3m2!1sen!2sin!4v1769234384498!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<!-- SOCIAL MEDIA -->
+<section class="social">
+  <h2>Connect With Us</h2>
+  <p>Follow BHUTNI YOUTH COMPUTER TRAINING CENTRE on social media</p>
+
+  <div class="social-icons">
+    <a href="https://www.facebook.com/byctc25" target="_blank" aria-label="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://www.instagram.com/byctc25" target="_blank" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.youtube.com/@byctc25" target="_blank" aria-label="YouTube">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+
+    <a href="https://wa.me/917001086042" target="_blank" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+</section>
+
 
 <!-- FOOTER -->
 <footer>
   <p>© 2026 BHUTNI YOUTH COMPUTER TRAINING CENTRE | All Rights Reserved</p>
 </footer>
 
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
+<!-- STICKY SOCIAL BAR -->
+<div class="sticky-social">
+  <a href="https://www.facebook.com/byctc25" target="_blank" aria-label="Facebook" class="facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
 
-let autoSlide = setInterval(function () {
+  <a href="https://www.instagram.com/byctc25" target="_blank" aria-label="Instagram" class="instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <a href="https://www.youtube.com/@byctc25" target="_blank" aria-label="YouTube" class="youtube">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+
+  <a href="https://wa.me/917001086042" target="_blank" aria-label="WhatsApp" class="whatsapp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
+
+<script>
+/* =========================
+   SLIDER WITH DOTS + PAUSE ON HOVER / TOUCH
+========================= */
+let slideIndex = 1;
+let autoSlide = null;
+const slideInterval = 3000;
+
+showSlides(slideIndex);
+startAutoSlide();
+
+function startAutoSlide() {
+  autoSlide = setInterval(nextSlide, slideInterval);
+}
+
+function stopAutoSlide() {
+  clearInterval(autoSlide);
+}
+
+function nextSlide() {
   slideIndex++;
   showSlides(slideIndex);
-}, 3000); // auto slide time
+}
 
 function currentSlide(n) {
   slideIndex = n;
@@ -304,35 +375,58 @@ function showSlides(n) {
   let slides = document.getElementsByClassName("slides");
   let dots = document.getElementsByClassName("dot");
 
-  if (n > slides.length) { slideIndex = 1; }
-  if (n < 1) { slideIndex = slides.length; }
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
 
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
 
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].classList.remove("active");
   }
 
   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+  dots[slideIndex - 1].classList.add("active");
 }
 
 function resetAutoSlide() {
-  clearInterval(autoSlide);
-  autoSlide = setInterval(function () {
-    slideIndex++;
-    showSlides(slideIndex);
-  }, 3000);
+  stopAutoSlide();
+  startAutoSlide();
 }
+
+/* =========================
+   PAUSE ON HOVER / TOUCH
+========================= */
+const slider = document.querySelector('.slider');
+
+if (slider) {
+  /* Desktop hover */
+  slider.addEventListener('mouseenter', stopAutoSlide);
+  slider.addEventListener('mouseleave', startAutoSlide);
+
+  /* Mobile touch */
+  slider.addEventListener('touchstart', stopAutoSlide, { passive: true });
+  slider.addEventListener('touchend', startAutoSlide);
+}
+
+/* =========================
+   SHRINK LOGO ON SCROLL (MOBILE ONLY)
+========================= */
+const logo = document.querySelector('.logo-box');
+
+window.addEventListener('scroll', () => {
+  if (window.innerWidth <= 768 && logo) {
+    if (window.scrollY > 50) {
+      logo.classList.add('shrink');
+    } else {
+      logo.classList.remove('shrink');
+    }
+  }
+});
 </script>
 
 
 
 </body>
 </html>
-
-
-
-
