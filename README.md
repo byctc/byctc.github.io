@@ -5,7 +5,7 @@ This repository contains the source code for the official static website of **BH
 The website is built using **HTML, CSS, and JavaScript** and is hosted on **GitHub Pages**.
 
 🌐 **Live Website:**
-[https://byctc.github.io/byctc/](https://byctc.github.io/byctc/)
+[https://byctc.github.io](https://byctc.github.io)
 
 ---
 
